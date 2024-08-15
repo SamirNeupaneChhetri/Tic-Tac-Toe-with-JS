@@ -1,0 +1,108 @@
+/* Reset default browser styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Added for better layout handling */
+}
+
+/* Body Styling */
+body {
+    background-color: #548687;
+    text-align: center;
+    font-family: Arial, sans-serif; /* Added a default font */
+    color: #ffffff; /* Set default text color for better contrast */
+}
+
+/* Game Container */
+.game-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+/* Game Grid */
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+/* Individual Boxes */
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    background-color: #ffffff; /* Added for better visibility */
+    cursor: pointer; /* Indicates clickable areas */
+}
+
+/* Reset Button */
+#resetBtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer; /* Indicates clickable areas */
+    transition: background-color 0.3s; /* Added hover effect */
+}
+
+#resetBtn:hover {
+    background-color: #333333;
+}
+
+/* New Game Button */
+.new-game-btn {
+    padding: 1rem 2rem; /* Adjusted for better appearance */
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.new-game-btn:hover {
+    background-color: #333333;
+}
+
+/* Message Styling */
+#msg {
+    color: #ffffc7;
+    font-size: 4rem; /* Adjusted for better responsiveness */
+}
+
+/* Message Container */
+.msg-container {
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/* Hide Class */
+.hide {
+    display: none;
+}
+#resertBtn{
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #191913;
+    border: none;
+    border-radius: 1rem;
+
+}
